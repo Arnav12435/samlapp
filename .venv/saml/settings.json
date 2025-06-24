@@ -1,0 +1,25 @@
+{
+  "sp": {
+    "entityId": "https://laughing-waffle-10.onrender.com/metadata/",
+    "assertionConsumerService": {
+      "url": "https://laughing-waffle-10.onrender.com/saml/acs",
+      "binding": "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+    },
+    "singleLogoutService": {
+      "url": "https://laughing-waffle-10.onrender.com/logout",
+      "binding": "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
+    }
+  },
+  "idp": {
+    "entityId": "dev-dzau480d3wloci3x.us.auth0.com",
+    "singleSignOnService": {
+      "url": "https://dev-dzau480d3wloci3x.us.auth0.com/samlp/3YNHMI1ZzL5Dhh9be5fiBWJ1UoWj705I",
+      "binding": "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
+    },
+    "singleLogoutService": {
+      "url": "https://dev-dzau480d3wloci3x.us.auth0.com/samlp/3YNHMI1ZzL5Dhh9be5fiBWJ1UoWj705I/logout",
+      "binding": "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
+    },
+    "x509cert": ""
+  }
+}

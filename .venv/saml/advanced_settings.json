@@ -1,0 +1,27 @@
+{
+  "security": {
+    "authnRequestsSigned": false,
+    "logoutRequestSigned": false,
+    "logoutResponseSigned": false,
+    "signMetadata": false,
+    "wantMessagesSigned": false,
+    "wantAssertionsSigned": false,
+    "wantNameId": true,
+    "wantNameIdEncrypted": false,
+    "wantAssertionsEncrypted": false,
+    "wantAttributeStatement": true
+  },
+  "contactPerson": {
+    "technical": {
+      "givenName": "Tech Support",
+      "emailAddress": "support@dev-dzau480d3wloci3x.us.auth0.com"
+    }
+  },
+  "organization": {
+    "en-US": {
+      "name": "YourOrg",
+      "displayname": "YourOrg",
+      "url": "https://dev-dzau480d3wloci3x.us.auth0.com"
+    }
+  }
+}

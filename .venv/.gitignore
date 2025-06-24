@@ -1,0 +1,22 @@
+# Python
+*.pyc
+__pycache__/
+
+# Virtual environment
+.venv/
+env/
+
+# Secrets
+.env
+*.pem
+*.crt
+*.key
+saml/*.key
+saml/*.pem
+
+# VS Code or IDE settings
+.vscode/
+.idea/
+
+# System files
+.DS_Store
