@@ -1,12 +1,12 @@
 {
   "sp": {
-    "entityId": "https://laughing-waffle-10.onrender.com/metadata/",
+    "entityId": "https://samlapp-1.onrender.com/metadata/",
     "assertionConsumerService": {
-      "url": "https://laughing-waffle-10.onrender.com/saml/acs",
+      "url": "https://samlapp-1.onrender.com/saml/acs",
       "binding": "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
     },
     "singleLogoutService": {
-      "url": "https://laughing-waffle-10.onrender.com/logout",
+      "url": "https://samlapp-1.onrender.com/logout",
       "binding": "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
     }
   },
